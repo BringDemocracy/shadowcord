@@ -51,4 +51,3 @@ jobs:
       with:
         name: Shadowcord-Windows
         path: dist/*.exe
-
