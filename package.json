@@ -2,7 +2,10 @@
   "name": "shadowcord",
   "version": "1.0.0",
   "main": "./out/main/index.js",
-  "author": "Shadowcord Team",
+  "author": {
+    "name": "Shadowcord Team",
+    "email": "dev@shadowcord.app"
+  },
   "description": "Privacy-First P2P Encrypted Chat",
   "scripts": {
     "dev": "electron-vite dev",
@@ -59,7 +62,8 @@
         "deb"
       ],
       "category": "Network",
-      "icon": "resources/icon.png"
+      "icon": "resources/icon.png",
+      "maintainer": "Shadowcord Team <dev@shadowcord.app>"
     },
     "win": {
       "target": [
